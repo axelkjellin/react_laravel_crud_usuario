@@ -1,3 +1,11 @@
+//paleta de cores
+
+.color1 { #ff4000 };
+.color2 { #ffefb5 };
+.color3 { #319190 };
+.color4 { #ffc803 };
+.color5 { #260d0d };
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
