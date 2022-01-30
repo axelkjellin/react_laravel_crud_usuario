@@ -3,16 +3,20 @@ import React from "react";
 import Logo from "../templates/Logo";
 import Footer from "../templates/Footer";
 import Nav from "../templates/Nav";
-import Home from "../home/Home";
+
+import { BrowserRouter } from 'react-router-dom'
+import Routes from './Routes'
 
 const App = () => {
     return (
-        <div className="lg:grid grid-cols-6 gap-0 grid-rows-12 h-screen">
-            <Logo />
-            <Nav />
-            <Home />
-            <Footer />
-        </div>
+        <BrowserRouter>
+            <div className="lg:grid grid-cols-6 gap-0 grid-rows-12 h-screen">
+                <Logo />
+                <Nav />
+                <Routes />
+                <Footer />
+            </div>
+        </BrowserRouter>
     )
 }
 
